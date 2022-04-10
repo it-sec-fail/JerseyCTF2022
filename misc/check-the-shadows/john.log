@@ -1,0 +1,27 @@
+john --wordlist /opt/Tools/SecLists/Passwords/xato-net-10-million-passwords-1000000.txt --format=sha512crypt tinker
+--------------------------------------------------------------------------
+The library attempted to open the following supporting CUDA libraries,
+but each of them failed.  CUDA-aware support is disabled.
+libcuda.so.1: cannot open shared object file: No such file or directory
+libcuda.dylib: cannot open shared object file: No such file or directory
+/usr/lib64/libcuda.so.1: cannot open shared object file: No such file or directory
+/usr/lib64/libcuda.dylib: cannot open shared object file: No such file or directory
+If you are not interested in CUDA-aware support, then run with
+--mca opal_warn_on_missing_libcuda 0 to suppress this message.  If you are interested
+in CUDA-aware support, then try setting LD_LIBRARY_PATH to the location
+of libcuda.so.1 to get passed this issue.
+--------------------------------------------------------------------------
+Using default input encoding: UTF-8
+Loaded 97 password hashes with 97 different salts (sha512crypt, crypt(3) $6$ [SHA512 128/128 AVX 2x])
+Cost 1 (iteration count) is 5000 for all loaded hashes
+Will run 16 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+0g 0:00:00:04 30,96% (ETA: 12:09:16) 0g/s 0p/s 3147c/s 3147C/s 123456..random
+gabriel          (mwcvk1edl)
+miriam           (dvdwxfgw23m)
+irina            (user86)
+remote           (user21)
+Waterloo         (th_r3n81)
+5g 0:00:02:08 DONE (2022-04-10 12:11) 0.03891g/s 27.60p/s 2622c/s 2622C/s modem..sss
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed	

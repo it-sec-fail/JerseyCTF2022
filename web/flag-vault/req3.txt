@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE items [
+<!ELEMENT items (item*)>
+<!ATTLIST items burpVersion CDATA "">
+<!ATTLIST items exportTime CDATA "">
+<!ELEMENT item (time, url, host, port, protocol, method, path, extension, request, status, responselength, mimetype, response, comment)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT host (#PCDATA)>
+<!ATTLIST host ip CDATA "">
+<!ELEMENT port (#PCDATA)>
+<!ELEMENT protocol (#PCDATA)>
+<!ELEMENT method (#PCDATA)>
+<!ELEMENT path (#PCDATA)>
+<!ELEMENT extension (#PCDATA)>
+<!ELEMENT request (#PCDATA)>
+<!ATTLIST request base64 (true|false) "false">
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT responselength (#PCDATA)>
+<!ELEMENT mimetype (#PCDATA)>
+<!ELEMENT response (#PCDATA)>
+<!ATTLIST response base64 (true|false) "false">
+<!ELEMENT comment (#PCDATA)>
+]>
+<items burpVersion="2022.2.1" exportTime="Sun Apr 10 14:06:01 CEST 2022">
+  <item>
+    <time>Sun Apr 10 14:04:02 CEST 2022</time>
+    <url><![CDATA[https://jerseyctf-flag-vault.chals.io/flags]]></url>
+    <host ip="143.244.222.115">jerseyctf-flag-vault.chals.io</host>
+    <port>443</port>
+    <protocol>https</protocol>
+    <method><![CDATA[POST]]></method>
+    <path><![CDATA[/flags]]></path>
+    <extension>null</extension>
+    <request base64="true"><![CDATA[UE9TVCAvZmxhZ3MgSFRUUC8xLjENCkhvc3Q6IGplcnNleWN0Zi1mbGFnLXZhdWx0LmNoYWxzLmlvDQpDb29raWU6IHNlc3Npb249ZXlKMWMyVnlJam9pWVdSdGFXNGlmUS5ZbExIbkEuREtRSUJuclNKUHZicjBFM244UWxqS21ndkRZDQpDb250ZW50LUxlbmd0aDogNA0KQ2FjaGUtQ29udHJvbDogbWF4LWFnZT0wDQpTZWMtQ2gtVWE6ICIoTm90KEE6QnJhbmQiO3Y9IjgiLCAiQ2hyb21pdW0iO3Y9Ijk4Ig0KU2VjLUNoLVVhLU1vYmlsZTogPzANClNlYy1DaC1VYS1QbGF0Zm9ybTogIkxpbnV4Ig0KVXBncmFkZS1JbnNlY3VyZS1SZXF1ZXN0czogMQ0KT3JpZ2luOiBodHRwczovL2plcnNleWN0Zi1mbGFnLXZhdWx0LmNoYWxzLmlvDQpDb250ZW50LVR5cGU6IGFwcGxpY2F0aW9uL3gtd3d3LWZvcm0tdXJsZW5jb2RlZA0KVXNlci1BZ2VudDogTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzk4LjAuNDc1OC4xMDIgU2FmYXJpLzUzNy4zNg0KQWNjZXB0OiB0ZXh0L2h0bWwsYXBwbGljYXRpb24veGh0bWwreG1sLGFwcGxpY2F0aW9uL3htbDtxPTAuOSxpbWFnZS9hdmlmLGltYWdlL3dlYnAsaW1hZ2UvYXBuZywqLyo7cT0wLjgsYXBwbGljYXRpb24vc2lnbmVkLWV4Y2hhbmdlO3Y9YjM7cT0wLjkNClNlYy1GZXRjaC1TaXRlOiBzYW1lLW9yaWdpbg0KU2VjLUZldGNoLU1vZGU6IG5hdmlnYXRlDQpTZWMtRmV0Y2gtVXNlcjogPzENClNlYy1GZXRjaC1EZXN0OiBkb2N1bWVudA0KUmVmZXJlcjogaHR0cHM6Ly9qZXJzZXljdGYtZmxhZy12YXVsdC5jaGFscy5pby9mbGFncw0KQWNjZXB0LUVuY29kaW5nOiBnemlwLCBkZWZsYXRlDQpBY2NlcHQtTGFuZ3VhZ2U6IGVuLUdCLGVuLVVTO3E9MC45LGVuO3E9MC44DQpDb25uZWN0aW9uOiBjbG9zZQ0KDQppZD00]]></request>
+    <status>302</status>
+    <responselength>616</responselength>
+    <mimetype>HTML</mimetype>
+    <response base64="true"><![CDATA[SFRUUC8xLjEgMzAyIEZPVU5EDQpTZXJ2ZXI6IGd1bmljb3JuDQpEYXRlOiBTdW4sIDEwIEFwciAyMDIyIDEyOjAzOjQ0IEdNVA0KQ29ubmVjdGlvbjogY2xvc2UNCkNvbnRlbnQtVHlwZTogdGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04DQpDb250ZW50LUxlbmd0aDogMjE4DQpMb2NhdGlvbjogaHR0cDovL2plcnNleWN0Zi1mbGFnLXZhdWx0LmNoYWxzLmlvL2ZsYWdzDQpWYXJ5OiBDb29raWUNClNldC1Db29raWU6IHNlc3Npb249ZXlKZlpteGhjMmhsY3lJNlczc2lJSFFpT2xzaVpHRnVaMlZ5SWl3aVRtOGdiV0YwWTJocGJtY2dabXhoWjNNZ1ptOTFibVFpWFgxZExDSjFjMlZ5SWpvaVlXUnRhVzRpZlEuWWxMSG9BLmRMb0dPdlJjNUJBRWkyc0FKcHFPV19sbjU1RTsgSHR0cE9ubHk7IFBhdGg9Lw0KDQo8IURPQ1RZUEUgSFRNTCBQVUJMSUMgIi0vL1czQy8vRFREIEhUTUwgMy4yIEZpbmFsLy9FTiI+Cjx0aXRsZT5SZWRpcmVjdGluZy4uLjwvdGl0bGU+CjxoMT5SZWRpcmVjdGluZy4uLjwvaDE+CjxwPllvdSBzaG91bGQgYmUgcmVkaXJlY3RlZCBhdXRvbWF0aWNhbGx5IHRvIHRhcmdldCBVUkw6IDxhIGhyZWY9Ii9mbGFncyI+L2ZsYWdzPC9hPi4gSWYgbm90IGNsaWNrIHRoZSBsaW5rLg==]]></response>
+    <comment></comment>
+  </item>
+</items>
